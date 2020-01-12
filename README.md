@@ -4,7 +4,7 @@ Dotfiles for Manjaro installations
 
 Enables AUR
 
-Ensures the following packages are installed:
+## Packages
 
 - FileZilla
 - Google Chromium Browser
@@ -23,6 +23,14 @@ Ensures the following packages are installed:
   - Allows ssh
 - Xournal
 - Zsh
+
+## Aliases
+
+- icanhas
+- gitcanhas
+
+## Git Aliases
+All git aliases are fetched from `git repository`
 
 Contains .env.example file with common environment variables. This file will be copied to .env during init, so that custom environment variables can be added by the user.
 
