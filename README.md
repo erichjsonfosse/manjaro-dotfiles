@@ -6,14 +6,22 @@ Enables AUR
 
 Ensures the following packages are installed:
 
+- FileZilla
+- Google Chromium Browser
+- Insomnia REST Client
+- Libre Office
 - Oh My Zsh
 - Oh My Zsh plugin: autosuggestions
 - Oh My Zsh plugin: syntaxhighlighting
 - Oh My Zsh theme: powerlevel9k
 - Pamac
+- PHPStorm
 - Powerline Fonts
+- Slack
+- Snap
 - UFW
   - Allows ssh
+- Xournal
 - Zsh
 
 Contains .env.example file with common environment variables. This file will be copied to .env during init, so that custom environment variables can be added by the user.
