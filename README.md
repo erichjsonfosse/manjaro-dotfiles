@@ -10,6 +10,8 @@ The file VERSION.CURRENT contains the current version number, and will be copied
 
 ## Packages
 
+- Docker
+- Docker Compose
 - FileZilla
 - Google Chromium Browser
 - Insomnia REST Client
