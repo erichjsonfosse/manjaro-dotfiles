@@ -1,3 +1,6 @@
 ###> ide ###
 .idea
 ###< ide ###
+
+.env
+VERSION.CURRENT
