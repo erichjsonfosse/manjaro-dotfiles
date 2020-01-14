@@ -3,6 +3,7 @@
 echo "Configuring ZSH..."
 
 # Oh My ZSH
+# TODO: Automatically answer yes to set ZSH as default shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Oh My ZSH Plugins
