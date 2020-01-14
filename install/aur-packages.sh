@@ -2,4 +2,6 @@
 
 echo "Installing AUR packages..."
 
-pamac build atom-editor-bin
+# TODO: Ensure AUR is enabled
+
+#pamac build atom-editor-bin
