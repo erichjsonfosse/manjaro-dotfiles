@@ -15,6 +15,7 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 - FileZilla
 - Google Chromium Browser
 - Insomnia REST Client
+- Konsole
 - Libre Office
 - Oh My Zsh
 - Oh My Zsh plugin: autosuggestions
@@ -28,6 +29,7 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 - UFW
   - Allows ssh
 - Xournal
+- Yakuake
 - Zsh
 
 ## Aliases
