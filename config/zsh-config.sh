@@ -5,6 +5,9 @@ echo "Configuring ZSH..."
 # Oh My ZSH
 curl -fsSL -o install-ohmyzsh.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 chmod +x install-ohmyzsh.sh
+# Oh My ZSH install options
+CHSH="yes"
+RUNZSH="no"
 ./install-ohmyzsh.sh
 rm -f ./install-ohmyzsh.sh
 
