@@ -20,12 +20,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 # Activate template
-sed -i -e "s/^ZSH_THEME=(.*)/#ZSH_THEME=$1/g" "$ZSHRCFILE"
-sed -i -e "s/^#ZSH_THEME=.*/a ZSH_THEME=\"powerlevel9k/powerlevel9k\"/g" "$ZSHRCFILE"
+sed -i "s/^ZSH_THEME=(.*)/#ZSH_THEME=$1/g" "$ZSHRCFILE"
+sed -i "s/^#ZSH_THEME=.*/a ZSH_THEME=\"powerlevel9k/powerlevel9k\"/g" "$ZSHRCFILE"
 
 # Activate plugins
-sed -i -e "s/^plugins=(.*)/#plugins=$1/g" "$ZSHRCFILE"
-sed -i -e "s/^#plugins=.*/a plugins=\(git zsh-autosuggestions zsh-syntax-highlighting\)/g" "$ZSHRCFILE"
+sed -i "s/^plugins=(.*)/#plugins=$1/g" "$ZSHRCFILE"
+sed -i "s/^#plugins=.*/a plugins=\(git zsh-autosuggestions zsh-syntax-highlighting\)/g" "$ZSHRCFILE"
 
 # Add aliases
 cat "$BASEDIR/aliases.conf" >> "$ZSHRCFILE"
