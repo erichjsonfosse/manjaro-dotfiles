@@ -1,6 +1,7 @@
 #!/bin/bash
 
 BASEDIR=$(dirname "$0")
+OHMYZSHFOLDER="$HOME/.oh-my-zsh"
 ZSHRCFILE="$HOME/.zshrc"
 
 echo "Configuring Zsh with Oh My Zsh..."
@@ -28,4 +29,4 @@ sed "s/^plugins=(.*)/#plugins=$1/g" "$ZSHRCFILE"
 sed "s/^#plugins=.*/a plugins=\(git zsh-autosuggestions zsh-syntax-highlighting\)/g" "$ZSHRCFILE"
 
 # Add aliases
-cat "$BASEDIR/aliases.conf" >> "$ZSHRCFILE"
+cp -f "$BASEDIR/aliases.conf" "$OHMYZSHFOLDER/plugins/001-aliases.zsh"
