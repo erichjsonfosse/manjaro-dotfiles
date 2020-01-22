@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASEDIR=$(dirname "$0")
-ZSHRCFILE="~/.zshrc"
+ZSHRCFILE="$HOME/.zshrc"
 
 echo "Configuring Zsh with Oh My Zsh..."
 
