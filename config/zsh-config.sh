@@ -29,4 +29,6 @@ sed -i "s/^plugins=\(.*\)/\# plugins=\1/g" "$ZSHRCFILE"
 sed -i "/^\# plugins=\(.*\)/a plugins=\(git zsh-autosuggestions zsh-syntax-highlighting\)" "$ZSHRCFILE"
 
 # Add aliases
-cp -f "$BASEDIR/aliases.conf" "$OHMYZSHFOLDER/plugins/001-aliases.zsh"
+cp -f "$BASEDIR/git.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles-git.zsh"
+cp -f "$BASEDIR/pacman.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles-pacman.zsh"
+cp -f "$BASEDIR/uuid.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles-uuid.zsh"
