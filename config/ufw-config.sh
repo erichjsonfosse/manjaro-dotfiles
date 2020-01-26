@@ -2,8 +2,11 @@
 
 echo "Configuring UFW..."
 
+# Enabling Service
+sudo systemctl enable ufw.service
+
 # Allowing ssh
-ufw allow ssh
+sudo ufw allow ssh
 
 # Enabling
-ufw enable
+sudo ufw enable

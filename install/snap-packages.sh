@@ -2,8 +2,11 @@
 
 echo "Installing Snap packages..."
 
-snap install insomnia
-snap install phpstorm --classic
-snap install postman
-snap install slack --classic
-snap install whatsdesk
+# Enabling Service
+sudo systemctl enable --now snapd.socket
+
+sudo snap install insomnia
+sudo snap install phpstorm --classic
+sudo snap install postman
+sudo snap install slack --classic
+sudo snap install whatsdesk
