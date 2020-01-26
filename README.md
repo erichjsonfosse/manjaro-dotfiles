@@ -13,6 +13,7 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 - Docker
 - Docker Compose
 - FileZilla
+- Fira Code Fonts
 - Google Chromium Browser
 - Insomnia REST Client
 - Konsole
@@ -36,6 +37,10 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 
 - icanhas
 - gitcanhas
+- hextouuid
 
 ## Git Aliases
-All git aliases are fetched from `git repository`
+- cp - short for `cherry-pick`
+- co - short for `checkout`
+- last - shows last log entry
+- tl - shows list of tags
