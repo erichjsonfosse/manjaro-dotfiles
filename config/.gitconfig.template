@@ -4,7 +4,6 @@
 [push]
 	default = simple
 [alias]
-  last = log -1 --stat
 	cp = cherry-pick
 	co = checkout
 	last = log -1 --stat
