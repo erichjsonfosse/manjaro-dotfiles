@@ -1,9 +1,12 @@
 [user]
-	name = ${MANJARO_DOTFILES_GITCONFIG_NAME}
-	email = ${MANJARO_DOTFILES_GITCONFIG_EMAIL}
+	name = MANJARO_DOTFILES_GITCONFIG_NAME
+	email = MANJARO_DOTFILES_GITCONFIG_EMAIL
 [push]
 	default = simple
 [alias]
+  last = log -1 --stat
+	cp = cherry-pick
+	co = checkout
 	last = log -1 --stat
 	tl = for-each-ref --sort=taggerdate --format '%(tag) - %(objectname:short) - %(subject) - %(taggerdate)' refs/tags
 [core]
