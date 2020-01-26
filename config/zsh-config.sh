@@ -1,9 +1,5 @@
 #!/bin/bash
 
-BASEDIR=$(dirname "$0")
-OHMYZSHFOLDER="$HOME/.oh-my-zsh"
-ZSHRCFILE="$HOME/.zshrc"
-
 echo "Configuring Zsh with Oh My Zsh..."
 
 # Oh My Zsh
@@ -30,6 +26,6 @@ sed -i "/^\# plugins=\(.*\)/a plugins=\(git zsh-autosuggestions zsh-syntax-highl
 
 # Add aliases
 mkdir "$OHMYZSHFOLDER/plugins/manjaro-dotfiles"
-cp -f "$BASEDIR/aliases/git.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/git.zsh"
-cp -f "$BASEDIR/aliases/pacman.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/pacman.zsh"
-cp -f "$BASEDIR/aliases/uuid.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/uuid.zsh"
+cp -f "$ALIASESDIR/aliases/git.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/git.zsh"
+cp -f "$ALIASESDIR/aliases/pacman.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/pacman.zsh"
+cp -f "$ALIASESDIR/aliases/uuid.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/uuid.zsh"

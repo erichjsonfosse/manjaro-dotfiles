@@ -2,9 +2,11 @@
 
 echo "Installing..."
 
+chmod +x ./*.sh
 chmod +x ./install/*.sh
 chmod +x ./config/*.sh
 
+source ./set-variables.sh
 source ./request-input.sh
 source ./install/pacman-packages.sh
 source ./install/snap-packages.sh
