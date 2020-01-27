@@ -7,7 +7,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 while true; do
-    read -rp "Continue with installation?" yn
+    read -rp "Continue with installation? (y/n)" yn
     case $yn in
         [Yy]* ) make install; break;;
         [Nn]* ) exit;;
