@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ "$EUID" -ne 0 ]
+  then
+    echo "Script must be run as root"
+    exit
+fi
+
+
 echo "Installing..."
 
 chmod +x ./*.sh
