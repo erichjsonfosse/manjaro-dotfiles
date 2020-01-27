@@ -6,6 +6,15 @@ if [ "$EUID" -ne 0 ]
     exit
 fi
 
+while true; do
+    read -rp "Continue with installation? (You will be prompted for sudo password)" yn
+    case $yn in
+        [Yy]* ) make install; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
 
 echo "Installing..."
 
