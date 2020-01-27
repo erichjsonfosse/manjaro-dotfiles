@@ -2,7 +2,10 @@
 
 echo "Configuring UFW..."
 
-# Enabling Service
+# Disabling iptables Service
+sudo systemctl disable iptables.service
+
+# Enabling UFW Service
 sudo systemctl enable ufw.service
 
 # Allowing ssh
