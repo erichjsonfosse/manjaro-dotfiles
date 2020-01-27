@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Configuring Zsh with Oh My Zsh..."
+ZSH="$HOMEDIR/.oh-my-zsh"
 
 # Oh My Zsh
 curl -fsSL -o install-ohmyzsh.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
@@ -10,11 +11,11 @@ chmod +x install-ohmyzsh.sh
 rm -f ./install-ohmyzsh.sh
 
 # Oh My Zsh Plugins
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions "$HOMEDIR/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOMEDIR/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
 
 # Oh My Zsh Theme (Powerlevel9k)
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+git clone https://github.com/bhilburn/powerlevel9k.git "$HOMEDIR/.oh-my-zsh/custom/themes/powerlevel9k"
 
 # Activate template
 sed -i "s/^ZSH_THEME=\(.*\)/\# ZSH_THEME=\1/g" "$ZSHRCFILE"
