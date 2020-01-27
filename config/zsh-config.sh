@@ -2,6 +2,7 @@
 
 echo "Configuring Zsh with Oh My Zsh..."
 ZSH="$HOMEDIR/.oh-my-zsh"
+export ZSH
 
 # Oh My Zsh
 curl -fsSL -o install-ohmyzsh.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
