@@ -15,9 +15,6 @@ while true; do
     esac
 done
 
-
-echo "Installing..."
-
 chmod +x ./*.sh
 chmod +x ./install/*.sh
 chmod +x ./config/*.sh
