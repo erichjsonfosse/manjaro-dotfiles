@@ -12,7 +12,7 @@ export MANJARO_DOTFILES_GITCONFIG_EMAIL
 while true; do
   read -rp "Generate SSH key files? (y/n)" yn
   case $yn in
-    [Yy]* ) su $LOGNAME ssh-keygen;;
+    [Yy]* ) ssh-keygen -f "$HOMEDIR/.ssh/id_rsa" && chown "$LOGNAME":"$LOGNAME" "$HOMEDIR/.ssh/id_rsa";;
     [Nn]* ) break;;
     * ) echo "Please answer yes or no.";;
   esac
