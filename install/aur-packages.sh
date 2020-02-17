@@ -2,6 +2,4 @@
 
 echo "Installing AUR packages..."
 
-# TODO: Ensure AUR is enabled
-
-pamac build atom-editor-bin
+su "$LOGNAME" pamac build atom-editor-bin
