@@ -29,4 +29,4 @@ source ./config/ufw-config.sh
 source ./config/zsh-config.sh
 source ./config/git-config.sh
 
-# TODO: Support upgrades
+source ./bump-version.sh
