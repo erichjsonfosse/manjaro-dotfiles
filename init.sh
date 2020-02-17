@@ -7,12 +7,12 @@ if [ "$EUID" -ne 0 ]
 fi
 
 while true; do
-    read -rp "Continue with installation? (y/n)" yn
-    case $yn in
-        [Yy]* ) break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
+  read -rp "Continue with installation? (y/n)" yn
+  case $yn in
+    [Yy]* ) break;;
+    [Nn]* ) exit;;
+    * ) echo "Please answer yes or no.";;
+  esac
 done
 
 chmod +x ./*.sh
