@@ -28,6 +28,6 @@ sed -i "/^\# plugins=\(.*\)/a plugins=\(git zsh-autosuggestions zsh-syntax-highl
 
 # Add aliases
 mkdir "$OHMYZSHFOLDER/plugins/manjaro-dotfiles"
-cp -f "$ALIASESDIR/git.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/git.zsh"
-cp -f "$ALIASESDIR/pacman.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/pacman.zsh"
-cp -f "$ALIASESDIR/uuid.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/uuid.zsh"
+cp -rf "$ALIASESDIR/git.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/git.zsh"
+cp -rf "$ALIASESDIR/pacman.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/pacman.zsh"
+cp -rf "$ALIASESDIR/uuid.conf" "$OHMYZSHFOLDER/plugins/manjaro-dotfiles/uuid.zsh"
