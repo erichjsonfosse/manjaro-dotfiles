@@ -8,7 +8,7 @@ export ZSH
 curl -fsSL -o install-ohmyzsh.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 chmod +x install-ohmyzsh.sh
 # Oh My Zsh install options
-./install-ohmyzsh.sh --unattended
+su $LOGNAME ./install-ohmyzsh.sh --unattended
 rm -f ./install-ohmyzsh.sh
 
 # Oh My Zsh Plugins
