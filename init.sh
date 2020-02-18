@@ -22,6 +22,7 @@ chmod +x ./config/*.sh
 source ./set-variables.sh
 source ./request-input.sh
 source ./install/pacman-packages.sh
+# TODO: Handle session restart after enabling snap service
 source ./install/snap-packages.sh
 source ./install/aur-packages.sh
 
