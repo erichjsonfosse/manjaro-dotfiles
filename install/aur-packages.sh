@@ -2,4 +2,4 @@
 
 echo "Installing AUR packages..."
 
-su "$LOGNAME" pamac build atom-editor-bin
+su "$LOGNAME" -c "pamac build atom-editor-bin"
