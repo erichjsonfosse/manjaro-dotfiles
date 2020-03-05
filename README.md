@@ -44,3 +44,7 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 - co - short for `checkout`
 - last - shows last log entry
 - tl - shows list of tags
+
+## Config
+- SSH - ServerAliveInterval 60
+- SSH - ServerAliveCountMax 2

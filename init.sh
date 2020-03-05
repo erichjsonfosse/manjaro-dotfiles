@@ -30,5 +30,6 @@ source ./install/aur-packages.sh
 source ./config/ufw-config.sh
 source ./config/zsh-config.sh
 source ./config/git-config.sh
+source ./config/ssh-config.sh
 
 source ./bump-version.sh
