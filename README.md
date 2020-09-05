@@ -16,15 +16,16 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 - Fira Code Fonts
 - Google Chromium Browser
 - Insomnia REST Client
+- IntelliJ IDEA Ultimate
 - Konsole
 - Libre Office
 - Oh My Zsh
 - Oh My Zsh plugin: autosuggestions
 - Oh My Zsh plugin: syntaxhighlighting
-- Oh My Zsh theme: powerlevel9k
+- Oh My Zsh theme: powerlevel10k
 - Pamac
-- PHPStorm
 - Powerline Fonts
+- Rambox
 - Slack
 - Snap
 - UFW
