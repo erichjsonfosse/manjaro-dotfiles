@@ -33,3 +33,7 @@ source ./config/git-config.sh
 source ./config/ssh-config.sh
 
 source ./bump-version.sh
+
+
+# Change ownership of home folder files recursively
+chown -R "$LOGNAME:$LOGNAME" "$HOMEDIR"
