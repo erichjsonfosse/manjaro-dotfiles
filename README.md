@@ -10,29 +10,33 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 
 ## Packages
 
-- Docker
-- Docker Compose
-- FileZilla
-- Fira Code Fonts
-- Google Chromium Browser
-- Insomnia REST Client
-- IntelliJ IDEA Ultimate
-- Konsole
-- Libre Office
-- Oh My Zsh
-- Oh My Zsh plugin: autosuggestions
-- Oh My Zsh plugin: syntaxhighlighting
-- Oh My Zsh theme: powerlevel10k
-- Pamac
-- Powerline Fonts
-- Rambox
-- Slack
-- Snap
-- UFW
-  - Allows ssh
-- Xournal
-- Yakuake
-- Zsh
+- AppImage (pacman)
+- AppImage Launcher (pacman)
+- Atom (AUR)
+- Docker (pacman)
+- Docker Compose (pacman)
+- FileZilla (pacman)
+- Fira Code Fonts (pacman)
+- Google Chromium Browser (pacman)
+- Insomnia Designer (AppImage)
+- Insomnia REST Client (AppImage)
+- IntelliJ IDEA Ultimate (Snap)
+- Konsole (pacman)
+- Libre Office (pacman)
+- Oh My Zsh (shell script)
+- Oh My Zsh plugin: autosuggestions (shell script)
+- Oh My Zsh plugin: syntaxhighlighting (shell script)
+- Oh My Zsh theme: powerlevel10k (shell script)
+- Pamac (pacman)
+- Postman (Snap)
+- Powerline Fonts (pacman)
+- Rambox (AppImage)
+- Snap (pacman)
+- UFW (pacman)
+- Vivaldi (pacman)
+- Xournal Plus Plus (pacman)
+- Yakuake (pacman)
+- Zsh (pacman)
 
 ## Aliases
 

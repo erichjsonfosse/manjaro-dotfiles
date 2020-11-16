@@ -5,8 +5,11 @@ pacman -Syu --noconfirm
 
 echo "Installing pacman packages..."
 pacman -Sy --noconfirm \
+ appimagelauncher \
+ libappimage \
  `# Browsers` \
  chromium \
+ vivaldi \
  `# Development` \
  docker \
  docker-compose \
@@ -24,5 +27,6 @@ pacman -Sy --noconfirm \
  squashfuse \
  ufw \
  unzip \
+ xournalpp \
  yakuake \
  zsh
