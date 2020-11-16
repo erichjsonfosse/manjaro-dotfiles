@@ -26,6 +26,7 @@ source ./install/enable-snap-service.sh
 # TODO: Handle session restart after enabling snap service
 source ./install/snap-packages.sh
 source ./install/aur-packages.sh
+source ./install/app-images.sh
 
 source ./config/ufw-config.sh
 source ./config/zsh-config.sh
