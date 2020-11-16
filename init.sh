@@ -37,4 +37,5 @@ source ./bump-version.sh
 
 
 # Change ownership of home folder files recursively
+echo "Changing ownership of home folder..."
 chown -R "$LOGNAME:$LOGNAME" "$HOMEDIR"
