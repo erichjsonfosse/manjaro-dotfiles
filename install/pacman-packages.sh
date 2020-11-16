@@ -9,13 +9,11 @@ pacman -Sy --noconfirm \
  libappimage \
  `# Browsers` \
  chromium \
- vivaldi \
  `# Development` \
  docker \
  docker-compose \
  libreoffice-fresh \
  `# Fonts` \
- otf-fira-code \
  powerline-fonts \
  ttf-fira-code \
  `# Utilities` \
