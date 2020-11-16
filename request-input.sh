@@ -8,6 +8,9 @@ export MANJARO_DOTFILES_GITCONFIG_NAME
 export MANJARO_DOTFILES_GITCONFIG_EMAIL
 ######################### Git Config ##########################
 
+# Ensure .ssh folder exists
+mkdir -p "$HOMEDIR/.ssh"
+
 ######################### SSH key files ##########################
 while true; do
   read -rp "Generate SSH key files? (y/n)" yn
