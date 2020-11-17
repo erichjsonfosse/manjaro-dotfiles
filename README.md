@@ -12,7 +12,7 @@ The file VERSION contains the latest version number, and will be copied to VERSI
 
 - AppImage (pacman)
 - AppImage Launcher (pacman)
-- Atom (AUR)
+- Atom (AppImage)
 - Docker (pacman)
 - Docker Compose (pacman)
 - FileZilla (pacman)

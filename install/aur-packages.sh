@@ -2,4 +2,4 @@
 
 echo "Installing AUR packages..."
 
-su "$LOGNAME" -c "pamac build --no-confirm atom-editor-bin otf-fira-code-git vivaldi-snapshot"
+pamac build --no-confirm otf-fira-code-git vivaldi-snapshot
