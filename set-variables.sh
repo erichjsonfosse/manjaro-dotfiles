@@ -20,6 +20,9 @@ HOMEDIR=$(eval echo ~"$LOGNAME")
 export HOMEDIR
 ######################### HOMEDIR ##########################
 
+APP_IMAGE_DIR="$HOMEDIR/Applications"
+export APP_IMAGE_DIR
+
 GITCONFIGFILE="$HOMEDIR/.gitconfig"
 export GITCONFIGFILE
 
